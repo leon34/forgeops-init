@@ -28,6 +28,12 @@
       ]
     }
   },
+  "handler": {
+    "type": "Router",
+    "name": "_router",
+    "baseURI": "http://app.example.com:8081",
+    "capture": "all"
+  },
   "heap": [
     {
       "name": "JwtSession",
